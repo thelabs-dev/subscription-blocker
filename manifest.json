@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Subscription Blocker",
+  "version": "1.0",
+  "description": "Evita los avisos de suscripciones de sitios webs",
+  "homepage_url": "https://github.com/thelabs-dev/subscription-blocker",
+  "background": { 
+	  "scripts": ["background.js"] 
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "cookies",
+    "*://*.elobservador.com.uy/*",
+    "*://*.ovaciondigital.com.uy/*",
+    "*://*.elpais.com.uy/*",
+    "*://*.tvshow.com.uy/*"
+  ]
+}
