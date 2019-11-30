@@ -1,10 +1,13 @@
 # Subscription Blocker
 
+Versión: 1.1
+
 ## Sitios soportados
 * elobservador.com.uy
 * ovaciondigital.com.uy
 * elpais.com.uy
 * tvshow.com.uy
+* montevideo.com.uy
 
 ## Instalación
 1.	Descargar el proyecto desde GitHub
