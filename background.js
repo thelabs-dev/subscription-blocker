@@ -1,7 +1,7 @@
-chrome.webRequest.onBeforeRequest.addListener(function() {
-  		return { cancel: true };
+chrome.webRequest.onBeforeRequest.addListener(function(details) {
+	return { cancel: true };
 	}, { urls: [
-		"*://*/js/epd_sw*", // EL PAIS
+		"*://*/*/js/epd_sw*", // EL PAIS
 		"*://*/jscripts/mvd_cms_newsletters.js" // MONTEVIDEO PORTAL
 		] 
 	}, ["blocking"] 
